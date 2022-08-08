@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meals"
+    android:orientation="vertical"
+    android:background="@drawable/lusitwo"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_marginTop="270dp"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="About Us"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="162dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="More than just an Italian eatery, we’re known as a place where people gather and maybe, just maybe, become something more than strangers before they leave the building, belly full, back onto the Michigan sidewalks. The family inheritance came to Don Haley, his Irish son-in-law, and his wife Enza who have ran it until they passed the restaurant along to the third generation, Don."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

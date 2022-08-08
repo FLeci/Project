@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OurCuisine"
+    android:orientation="vertical"
+    android:theme="@style/CardView.Dark"
+    >
+
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/sizetwo"
+                    >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="255dp"
+                        android:layout_height="289dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cur" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our Cuisine"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="The chef de cuisine, also known as the executive chef or head chef, is responsible for overseeing the daily operations of restaurant and hotel kitchens, ensuring that all food served meets the highest quality standards"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_margin="10dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_margin="10dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/cuisin"
+                            android:padding="15dp"
+                            android:layout_marginRight="10dp"
+                            />
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/bibimbap"
+                            android:padding="15dp"/>
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/salad"
+                            android:padding="15dp"/>
+
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/btnone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next"
+                        android:backgroundTint="@color/black"/>
+                </LinearLayout>
+
+
+</LinearLayout>

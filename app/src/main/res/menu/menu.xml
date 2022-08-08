@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/home"
+     android:icon="@drawable/home"
+     android:title="Home"
+     app:showAsAction="always"/>
+ <item android:id="@+id/restaurant_menu"
+  android:icon="@drawable/restaurant_menu"
+  app:showAsAction="always"
+     android:title="Restaurant Menu"
+     />
+
+ <item android:id="@+id/action_more"
+  android:icon="@drawable/more_vert"
+  android:title=""
+  app:showAsAction="always"
+
+     >
+  <menu>
+   <item android:id="@+id/our_cuisine"
+    android:icon="@drawable/cookie"
+    android:title="Our Cuisine"
+    />
+   <item android:id="@+id/meals"
+    android:icon="@drawable/set_meal"
+    android:title="Meals"
+   />
+   <item android:id="@+id/place"
+       android:icon="@drawable/place"
+       android:title="Place"
+     />
+  </menu
+      >
+
+
+ </item>
+</menu>
